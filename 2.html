@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 300px;
+        }
+        body{
+            background-color: bisque;
+            text-align: center;
+        }
+        .imagenes{
+            display: flex;
+            justify-content: space-around;
+        }
+        .input{
+            display: flex;
+            justify-content: space-around;
+        }
+        .boton{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        input{
+            text-align: center;
+        }
+        h2{
+            font-size: 40px;
+        }
+        a{
+            font-size: 40px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="imagenes">
+            <img src="./assets/img/1.webp" alt="">
+            <img src="./assets/img/2.webp" alt="">
+            <img src="./assets/img/3.webp" alt="">
+        </div>
+        <div class="input"> 
+            <input id="input1" type="number" placeholder="Ingresar N° de Pines">
+            <input id="input2" type="number" placeholder="Ingresar N° de Pines">
+            <input id="input3" type="number" placeholder="Ingresar N° de Pines">
+        </div>
+    </div>
+    <div class="boton">
+        <button id="verificar">Verificar</button>
+        <h2></h2>
+    </div>
+    <a href="./index.html">Index</a>
+    <script src="./assets/js/2.js"></script>
+    
+</body>
+</html>
